@@ -12,6 +12,7 @@ if (require.main === module) {
   console.log("Expecting: ['a']");
   console.log("=>", consecutiveSubstrings('a'));
 }
+console.log(consecutiveSubstrings("phone"));
 
 module.exports = consecutiveSubstrings;
 

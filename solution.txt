@@ -1,2 +1,15 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+
+This solution generates all consecutive substrings from a given string.
+It uses two nested loops where the first loop selects the starting index
+and the second loop selects the ending index for each substring.
+
+The substring method is used to extract each consecutive substring and
+store it in an array in the order they appear.
+
+This approach ensures all valid contiguous substrings are returned,
+including single-character substrings, and handles empty strings correctly.
+
+Time Complexity: O(n^2)
+Space Complexity: O(n^2)
